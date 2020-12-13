@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace App\Services;
 
-class SettingsResolver
+class Config
 {
     public $settings = [];
     private $settings_path = ROOT . "/settings.ini";
@@ -20,6 +20,6 @@ class SettingsResolver
             }
         }
 
+        $this->settings = $settings;
     }
-    
 }

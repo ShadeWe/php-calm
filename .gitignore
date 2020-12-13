@@ -1,0 +1,5 @@
+# remove logs file
+ubuntu-xenial*
+
+/vendor
+/.vagrant

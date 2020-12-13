@@ -2,6 +2,7 @@
 
 namespace App\Providers\Database;
 
+use App\Services\Config;
 use App\Providers\Provider;
 
 class Database extends Provider
